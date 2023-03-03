@@ -1,0 +1,27 @@
+.mainproduc-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: auto;
+    gap: 30px;
+    .product-card{
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        background-color: rgb(211, 211, 211);
+        img{
+            width: 260px;
+        }
+        h4{
+            font-weight: 600;
+            padding: 10px 0;
+        }
+        .product-price{
+            font-weight: 600;
+            padding: 6px 0;
+        }
+    }
+}

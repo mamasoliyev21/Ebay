@@ -1,0 +1,89 @@
+.sign-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sign-wrapper__top{
+        padding: 30px 0;
+        .sign-p1{
+            padding: 15px 0;
+        }
+        input{
+            padding: 12px 200px 9px 16px ;
+            outline: none;
+            border-radius: 9px;
+            border: none;
+            background-color: rgb(209, 199, 199);
+        }
+        .sign-p2{
+            padding-top: 15px;
+        }
+        .sign-p3{
+            border-bottom: 1px solid gray;
+            display: inline-block;
+            color: black;
+        }
+        span{
+            width: 3    00px;
+            border: 1px solid gray;
+            height: 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           margin-top: 70px;
+        }
+        .registr-btn{
+            // width: 222px;
+            display: flex;
+            height: 40px;
+            width: 300px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 24px;
+            margin: 20px 0 0 40px;
+            background-color: #C7C7C7;
+        }
+        .registr-btn:hover{
+            background-color: #fa6611;
+            color: white;
+        }
+        .registr-btn:active{
+            background-color: black;
+            color: white;
+        }
+        img{
+            padding-top: 50px;
+            padding-left: 17px;
+        }
+    }
+    h1{
+        text-align: center;
+        font-size: 36px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+}
+
+
+.sign-btn{
+    display: flex;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    margin: 20px 0 0 40px;
+    background-color: #3665F3;
+    color: white;
+}
+.sign-btn:hover{
+    background-color: white;
+    color: black;
+}
+.sign-btn:active{
+    background-color: gray;
+    color: white;
+}

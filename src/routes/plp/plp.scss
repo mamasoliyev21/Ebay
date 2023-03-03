@@ -1,0 +1,80 @@
+.plp-categories{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    gap: 0 15px;
+    overflow-x: auto;
+    gap: 15px;
+   
+    img{
+        width: 150px;
+        border-radius:  8px;;
+        height: 150px;
+    }
+    .catagory-box-list{
+        text-align: center;
+    }
+}
+.plp-categories::-webkit-scrollbar{
+    width: 0;
+}
+.catagory-top-box{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+//  align-items: center;
+}
+.category-name{
+    padding-top: 15px;
+    font-size: 22px;
+    color: #000;
+}
+.plp-top-img{
+    width: 99%;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.catagory-top_title{
+    font-family: sans-serif Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    text-align: start;
+}
+.shop-title{
+    font-size: 34px;
+    padding-top: 20px;
+}
+.plp-catagory-wrapper{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+   img{
+    width: 100%;
+}
+
+}
+.catagory-wrapper-card{
+    padding: 8px 10px 1rem 10px;
+    background-color: rgb(216, 202, 202);
+    width: 300px !important;
+        margin-top: 50px;
+}
+.catagory-wrapper-title{
+    font-size: 20px;
+    font-family:  Arial, sans-serif;
+    font-weight: 300;
+}
+.catagory-wrapper-price{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500; 
+    color:red;
+}
+.catagory-wrapper-desc{
+    padding: 12px 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500; 
+    color:rgb(15, 10, 10);
+}

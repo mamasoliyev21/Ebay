@@ -1,0 +1,180 @@
+.pdp{
+    padding-top: 150px;
+    min-height: 100px;
+    .pdp-wrapper{
+        margin-left: 10px;
+        padding: 90px 0;
+        background-color:rgb(235, 230, 230);
+        // box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        .pdp-wrapper__aside{
+            display: flex;
+            flex-direction: column;
+            .aside-title{
+                font-size: 22px;
+                line-height: 23px;
+                padding-bottom: 20px;
+                line-height: 100%;
+                align-items: Left;
+                vertical-align: Center;
+                strong{
+                    color: #DD1E31;
+                }
+                
+            }
+            .wrapper-aside__card{
+                background-color: rgb(231, 230, 230);
+                padding: 0 80px;
+                border: 1px solid;
+                img{
+                    width: 480px;
+                    object-fit: cover;
+                    height: 500px;
+                }
+            }
+        }
+        .pdp-wrapper__bside{
+            width: 45%;
+            padding-left: 90px;
+            display: flex;
+            flex-direction: column;
+            h1{
+                font-size: 29px;
+                border-bottom: 1px solid gray;
+                padding-bottom: 20px;
+                font-weight: 600;
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                border-bottom: 1px solid rgb(34, 30, 30);
+                .bside-list__item{
+                    .bside-h4{
+                        padding-bottom: 70px;
+                    }
+                    .item-one{
+                        margin-left: 20px;
+                    }
+                    justify-content: space-between;
+                    width: 350px;
+                    align-items: center;
+                    padding: 20px 8px;
+                    display: flex;
+                    span{
+                        width: 220px;
+                        border: 1px solid;
+                        // padding: 4px 92px 14px 16px ;
+                        p{
+                            
+                            display: flex;
+                            width: 150px;
+                        }
+                    }
+                }
+            }
+            .box-bottom{
+                display: flex;
+                .box-price{
+                    padding-left: 50px;
+                    font-size: 28px;
+                    font-weight: 700;
+                }
+                .box-btns{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px 0;
+                    .btn-buy{
+                        font-size: 19px;
+                      margin-left: 90px;
+                      padding: 10px 49px;
+                      background-color: #0053A0;
+                      color: white;
+                      border-radius: 18px;
+                      width: 240px;
+                     text-align: center;
+                    }
+                    .btn-buy:hover{
+                        background-color: white;
+                        color: black;
+                    }
+                    .btn-addtocard{
+                        width: 240px;
+                        cursor: pointer;
+                        font-size: 19px;
+                        margin-left: 90px;
+                        padding: 10px 49px;
+                        background-color: #3498CA;
+                        color: white;
+                        border-radius: 18px;
+                    }
+                    .btn-addtocard:nth-child(3){
+                        background-color: #fff;
+                        color: #000;
+                    }
+                    .btn-addtocard:hover{
+                        background-color: white;
+                        color: black;
+                        border: 1px solid;
+                    }
+                    .btn-addtocard:active{
+                        background-color: #0053A0;
+                        color: white;
+                    }
+                }
+            }
+
+        }
+    }
+}
+h4{
+    font-size: 20px;
+}
+.pdp-catagories{
+    padding-top: 30px;
+    width: 100%;
+    .pdp-top{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .pdp-title{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 10px 0;
+    }
+    .pdp-text{
+        color: #707070;
+        border-bottom:1px solid gray;
+    }
+    .pdp-catagories__wrapper{
+        margin-bottom: 60px;
+        display: flex;
+        overflow-x: auto;
+        gap: 15px;
+        justify-content: space-between;
+        transform: 0.3s all cubic-bezier(0.075, 0.82, 0.165, 1);
+        .pdp-wrapper__box{
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+            background-color: rgb(250, 242, 242);
+            padding: 10px;
+            flex-direction: column;
+            min-height: 300px;
+            display: flex;
+            .pdp-wrapper_img{
+                width: 200px;
+            }
+            p{
+                padding: 12px 0;
+            }
+        
+        }
+    }
+}
+.text-img{
+    padding-left: 600px;
+    display: flex;
+    flex-direction: column;
+    .text-img2{
+        padding-top: 39px;
+    }
+}

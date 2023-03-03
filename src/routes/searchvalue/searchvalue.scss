@@ -1,0 +1,27 @@
+.search-result__wrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20px 0;
+    flex-wrap: wrap;
+    .product-card{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 6px;
+        background-color: rgb(233, 229, 229);
+        height: 350px;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+        p{
+            padding: 12px 0;
+            color: #000;
+        }
+        .product-price{
+            font-weight: 600;
+        }
+    }
+}
